@@ -1,0 +1,48 @@
+
+
+nav a{
+    color: hsl(219, 9%, 45%);
+}
+
+.sneaker{
+    color: hsl(26, 100%, 55%);
+    font-weight: 600;
+}
+
+.limited{
+    color: black;
+    font-size: 42px;
+    font-weight: 500;
+    width: 500px;
+    line-height: 42px;
+}
+
+.casual{
+    width: 410px;
+    color: rgb(44, 36, 36);
+}
+
+.discount{
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+}
+.discount span:nth-of-type(1){
+    font-size: 28px;
+    font-weight:bold;
+    color: black;
+}
+
+.discount span:nth-of-type(2){
+    font-size: 18px;
+    background-color: rgb(90, 94, 97, 0.1);
+    height: fit-content; 
+    color: rgb(70, 157, 16);
+}
+
+.plus-minus{
+    background-color: rgba(105, 105, 123, 0.2);
+}
+.plus-minus button{
+    background-color: rgba(110, 110, 127, 0);
+}
