@@ -1,5 +1,3 @@
-
-
 nav a{
     color: hsl(219, 9%, 45%);
 }
@@ -46,3 +44,22 @@ nav a{
 .plus-minus button{
     background-color: rgba(110, 110, 127, 0);
 }
+
+
+.images{
+    width: fit-content;
+    transition: transform 1s;
+}
+
+.zoom{
+    transform: scale(1.3);
+    top: 50%;
+    left: 50%;
+    translate: 100% -10%;
+}
+
+.body{
+    opacity: 0;
+}
+
+
