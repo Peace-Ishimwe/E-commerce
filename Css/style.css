@@ -55,11 +55,25 @@ nav a{
     transform: scale(1.3);
     top: 50%;
     left: 50%;
-    translate: 100% -10%;
+    translate: 50% -15%;
 }
 
 .body{
-    opacity: 0;
+    display: none;
 }
 
+.small:hover{
+    filter: blur(1px);
+}
+.small:focus{
+    border: 5px solid orange;
+}
+
+.notify{
+    width: fit-content;
+    height: fit-content;
+    padding: 0 7px 2px 7px;
+    border-radius: 50%;
+    color: white;
+}
 
